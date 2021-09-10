@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>first page</title>
+  <style>
+  table, th, td,{
+    border:1px black;
+  }
+  body{
+    background-color: yellow
+   }
+  .img-vans{
+    width:300px;
+    height:350px;
+  }
+  .img-headphones{
+    width: 400px;
+    height:300px;
+  }
+  .img-funko{
+    width:300px;
+    height:350px;
+
+  }
+  /* Style the element with the id "myHeader" */
+  #myHeader {
+    background-color: lightblue;
+    color:white;
+    padding:7px;
+  }
+  /* Style all elements with the class name "user" */
+.user {
+  background-color: tomato;
+  color: green;
+  padding:10px;
+}
+</style>
+</head>
+<body>
+<h1 id="myHeader">I listen to almost any kind of music</h1>
+<p style="color:black;">However if I listed my favorite genres of music in order this is how they would be listed.</p>
+<ol>
+  <li>rap</li>
+  <li>rock</li>
+  <li>indie rock</li>
+<hr>
+<img class="img-headphones" src="img/wearingheadphones.jpg" alt="man wearing headphones" >
+<hr>
+<br>
+<h2><i>I've been collecting funkopop's</i></h2>
+<p id="demo">My friend from work got me my first funko pop to start my collection.</p>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize="35px";
+  document.getElementById("demo").style.color= "white";
+  document.getElementById("demo").style.backgroundColor="red";
+}
+</script>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<hr>
+<img class="img-funko"src="img/funkopop.jpg" alt="A Funko Pop Toy of Aquaman">
+<hr>
+<h3 class="user">Vans are my favorite shoes to wear</h3><br>
+<p style="color:blue;"><b>Vans are cheaply priced compared to other shoe brands</b></p>
+<br>
+<table>
+  <caption>Vans Pricing</caption>
+<tr>
+  <th>Hightop</th>
+  <th>Midtop</th>
+  <th>Lowtop</th>
+</tr>
+<tr>
+  <td>70.99</td>
+  <td>60.99</td>
+  <td>50.99</td>
+</tr>
+</table>
+<hr>
+<img class="img-vans" src="img/Vans.jpg" alt="Orange and white Shoes" >
+<hr><br>
+<a href="https://www.pexels.com/" tareget="_blank"> pexels is the website I use for my pictures</a>
+<hr><br>
+<a href="pages/contact.html" target="_blank">visit the second page</a>
+<br>
+<hr>
+</body>
+</html>
